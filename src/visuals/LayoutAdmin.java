@@ -63,9 +63,11 @@ public class LayoutAdmin extends javax.swing.JFrame {
         pnlNavLat.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblUserType.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
+        lblUserType.setForeground(new java.awt.Color(255, 255, 255));
         lblUserType.setText("Administrador");
         pnlNavLat.add(lblUserType, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, -1, 25));
 
+        lblUserName.setForeground(new java.awt.Color(255, 255, 255));
         lblUserName.setText("Admin01");
         pnlNavLat.add(lblUserName, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, 170, 25));
         pnlNavLat.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 280, 45));

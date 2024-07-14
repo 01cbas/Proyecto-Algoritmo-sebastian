@@ -20,7 +20,7 @@ public class AdministarProductos extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Discos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/multimedia/Procesador.png"))); // NOI18N
+        Discos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/multimedia/icons8-disco-duro-100.png"))); // NOI18N
         Discos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 DiscosActionPerformed(evt);

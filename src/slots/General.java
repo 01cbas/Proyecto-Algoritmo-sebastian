@@ -49,11 +49,11 @@ public class General extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Roboto Medium", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(51, 51, 51));
         jLabel1.setText("COMPONENTES DISPONIBLES");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, -1, -1));
-        add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, 250, 20));
+        add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 50, 360, 20));
 
         btnRams.setIcon(new javax.swing.ImageIcon(getClass().getResource("/multimedia/icons8-ram-de-computadora-100.png"))); // NOI18N
         btnRams.addActionListener(new java.awt.event.ActionListener() {
@@ -63,7 +63,7 @@ public class General extends javax.swing.JPanel {
         });
         add(btnRams, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 100, 100, 100));
 
-        btnDiscos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/multimedia/Procesador.png"))); // NOI18N
+        btnDiscos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/multimedia/icons8-disco-duro-100.png"))); // NOI18N
         btnDiscos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnDiscosActionPerformed(evt);

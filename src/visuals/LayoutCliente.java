@@ -46,10 +46,12 @@ public class LayoutCliente extends javax.swing.JFrame {
         pnlNavSup.setBackground(new java.awt.Color(51, 51, 51));
         pnlNavSup.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        lblUserName.setForeground(new java.awt.Color(255, 255, 255));
         lblUserName.setText("User01");
         pnlNavSup.add(lblUserName, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, 170, 25));
 
         lblUserType.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
+        lblUserType.setForeground(new java.awt.Color(255, 255, 255));
         lblUserType.setText("Cliente");
         pnlNavSup.add(lblUserType, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, -1, 25));
 

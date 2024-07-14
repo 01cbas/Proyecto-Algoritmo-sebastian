@@ -61,8 +61,8 @@ public class EditarPlacaMadre extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(51, 51, 51));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("REGISTRAR NUEVA PLACA MADRE");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 400, -1));
-        add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 300, 10));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
+        add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 410, 10));
 
         btnEditar.setText("EDITAR");
         btnEditar.addActionListener(new java.awt.event.ActionListener() {
@@ -70,7 +70,7 @@ public class EditarPlacaMadre extends javax.swing.JPanel {
                 btnEditarActionPerformed(evt);
             }
         });
-        add(btnEditar, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 220, -1, -1));
+        add(btnEditar, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 220, -1, -1));
 
         btnCancelar.setText("CANCELAR");
         btnCancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -85,40 +85,40 @@ public class EditarPlacaMadre extends javax.swing.JPanel {
         add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 230, 210, 50));
 
         jLabel2.setText("ID");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, 30, -1));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 130, 30, -1));
         add(txtProveedor, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 210, 50));
 
         jLabel4.setText("Proveedor");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, -1, -1));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, -1, -1));
 
         jLabel5.setText("Nombre");
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, -1, -1));
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, -1, -1));
 
         jLabel6.setText("Socket");
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 310, -1, -1));
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 310, -1, -1));
 
         jLabel7.setText("Tipo de RAM");
-        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 400, -1, -1));
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 370, -1, -1));
 
         jLabel8.setText("RAM max");
-        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 480, -1, -1));
+        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 430, -1, -1));
 
         jLabel9.setText("Cantidad");
-        add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 300, -1, -1));
+        add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 250, -1, -1));
 
         jLabel10.setText("Puertos");
-        add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 210, -1, -1));
-        add(txtCantidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 290, 210, 50));
-        add(txtPuertos, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 190, 210, 50));
-        add(txtRamMax, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 460, 210, 50));
+        add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 190, -1, -1));
+        add(txtCantidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 230, 210, 50));
+        add(txtPuertos, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 170, 210, 50));
+        add(txtRamMax, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 410, 210, 50));
 
         jLabel11.setText("PCIe");
-        add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 140, -1, -1));
-        add(txtSocket, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 300, 210, 50));
+        add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 130, -1, -1));
+        add(txtSocket, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 290, 210, 50));
 
         txtTipoRam.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "DDR4", "DDR5" }));
         txtTipoRam.setToolTipText("");
-        add(txtTipoRam, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 380, 210, 50));
+        add(txtTipoRam, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 350, 210, 50));
 
         txtPCIe.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "4", "8", "16" }));
         txtPCIe.setToolTipText("");
@@ -135,7 +135,7 @@ public class EditarPlacaMadre extends javax.swing.JPanel {
         txtNVMe.setText("NVMe");
         jPanel1.add(txtNVMe, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 90, -1, -1));
 
-        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 370, 280, 150));
+        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 310, 280, 150));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnEditarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEditarActionPerformed

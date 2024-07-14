@@ -51,8 +51,8 @@ public class RegistrarTarjetaGrafica extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(51, 51, 51));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("REGISTRAR NUEVA TARJETA GRAFICA");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 460, -1));
-        add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 300, 10));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
+        add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 470, 10));
 
         btnEditar.setText("REGISTRAR");
         btnEditar.addActionListener(new java.awt.event.ActionListener() {
@@ -70,40 +70,40 @@ public class RegistrarTarjetaGrafica extends javax.swing.JPanel {
         });
         add(btnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 430, -1, -1));
         add(txtId, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, 210, 50));
-        add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 270, 210, 50));
+        add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 230, 210, 50));
 
         jLabel2.setText("ID");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, 30, -1));
-        add(txtProveedor, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 190, 210, 50));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 130, 30, -1));
+        add(txtProveedor, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 210, 50));
 
         jLabel4.setText("Proveedor");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, -1, -1));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, -1, -1));
 
         jLabel5.setText("Nombre");
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 280, -1, -1));
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, -1, -1));
 
         jLabel6.setText("PCIe");
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 370, -1, -1));
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 310, -1, -1));
 
         jLabel7.setText("Memoria");
-        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 90, -1, -1));
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 130, -1, -1));
 
         jLabel8.setText("Tipo de memoria");
         add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 190, -1, -1));
 
         jLabel9.setText("Cantidad");
-        add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 350, -1, -1));
-        add(txtMemoria, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 80, 210, 50));
-        add(txtCantidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 340, 210, 50));
-        add(txtAnchoBanda, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 260, 210, 50));
+        add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 310, -1, -1));
+        add(txtMemoria, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 110, 210, 50));
+        add(txtCantidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 290, 210, 50));
+        add(txtAnchoBanda, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 230, 210, 50));
 
         txtPCIe.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "4", "8", "16" }));
         txtPCIe.setToolTipText("");
-        add(txtPCIe, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 360, 210, 50));
+        add(txtPCIe, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 290, 210, 50));
 
         jLabel11.setText("Ancho de banda");
-        add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 280, -1, -1));
-        add(txtTipoMemoria, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 170, 210, 50));
+        add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 250, -1, -1));
+        add(txtTipoMemoria, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 170, 210, 50));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnEditarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEditarActionPerformed

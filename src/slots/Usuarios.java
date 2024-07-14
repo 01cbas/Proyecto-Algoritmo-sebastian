@@ -106,32 +106,28 @@ public class Usuarios extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(51, 51, 51));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("ADMINISTRAR USUARIOS");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 290, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 300, -1));
         add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 130, 320, 40));
 
         jLabel3.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("NOMBRE:");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 100, -1, -1));
         add(txtApellido, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 220, 320, 40));
 
         jLabel6.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("APELLIDO:");
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 190, -1, -1));
         add(txtNombreUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 310, 320, 40));
 
         jLabel7.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("NOMBRE DE USUARIO:");
         add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 280, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("CONTRASEÑA:");
         add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 370, -1, -1));
         add(txtContraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 400, 320, 40));
-        add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 290, -1));
+        add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 300, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarActionPerformed

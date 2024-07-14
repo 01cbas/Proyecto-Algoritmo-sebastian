@@ -66,13 +66,13 @@ public class Discos extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 760, -1));
 
-        jButton1.setText("Volver");
+        jButton1.setText("VOLVER");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(163, 22, -1, -1));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
 
         btnEliminar.setText("ELIMINAR");
         btnEliminar.addActionListener(new java.awt.event.ActionListener() {
@@ -104,18 +104,18 @@ public class Discos extends javax.swing.JPanel {
                 btnEditarStockActionPerformed(evt);
             }
         });
-        add(btnEditarStock, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 350, -1, -1));
+        add(btnEditarStock, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 350, -1, -1));
         add(txtCantidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 270, 110, 50));
 
         jLabel1.setText("CANTIDAD");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 260, 70, 30));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 280, 70, 30));
 
-        jLabel2.setText("ID:");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 230, 30, -1));
+        jLabel2.setText("ID");
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 230, 30, -1));
 
         txtId.setEditable(false);
         txtId.setText("ID");
-        add(txtId, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 132, 80, 120));
+        add(txtId, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 212, 110, 40));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
